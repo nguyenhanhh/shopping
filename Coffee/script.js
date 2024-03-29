@@ -9,7 +9,6 @@ var cartIcons = document.querySelectorAll('.fa-solid.fa-cart-shopping');
 //         var productName = productContainer.querySelector('.des span').innerText;
 //         var productPrice = productContainer.querySelector('.price span').innerText;
 
-//         // Thêm thông tin sản phẩm vào giỏ hàng hoặc thực hiện các hành động khác tùy thuộc vào yêu cầu của bạn
 //         console.log('Đã thêm sản phẩm vào giỏ hàng:');
 //         console.log('Tên sản phẩm:', productName);
 //         console.log('Giá sản phẩm:', productPrice);
