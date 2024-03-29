@@ -1,20 +1,20 @@
 var cartIcons = document.querySelectorAll('.fa-solid.fa-cart-shopping');
-cartIcons.forEach(function (icon) {
-    icon.addEventListener('click', function (event) {
-        // Ngăn chặn hành vi mặc định của biểu tượng giỏ hàng
-        event.preventDefault();
+// cartIcons.forEach(function (icon) {
+//     icon.addEventListener('click', function (event) {
+//         // Ngăn chặn hành vi mặc định của biểu tượng giỏ hàng
+//         event.preventDefault();
 
-        // Lấy thông tin về sản phẩm từ phần tử cha của biểu tượng giỏ hàng
-        var productContainer = icon.closest('.Cloudfee');
-        var productName = productContainer.querySelector('.des span').innerText;
-        var productPrice = productContainer.querySelector('.price span').innerText;
+//         // Lấy thông tin về sản phẩm từ phần tử cha của biểu tượng giỏ hàng
+//         var productContainer = icon.closest('.Cloudfee');
+//         var productName = productContainer.querySelector('.des span').innerText;
+//         var productPrice = productContainer.querySelector('.price span').innerText;
 
-        // Thêm thông tin sản phẩm vào giỏ hàng hoặc thực hiện các hành động khác tùy thuộc vào yêu cầu của bạn
-        console.log('Đã thêm sản phẩm vào giỏ hàng:');
-        console.log('Tên sản phẩm:', productName);
-        console.log('Giá sản phẩm:', productPrice);
-    });
-});
+//         // Thêm thông tin sản phẩm vào giỏ hàng hoặc thực hiện các hành động khác tùy thuộc vào yêu cầu của bạn
+//         console.log('Đã thêm sản phẩm vào giỏ hàng:');
+//         console.log('Tên sản phẩm:', productName);
+//         console.log('Giá sản phẩm:', productPrice);
+//     });
+// });
 
 // Lấy thẻ bảng giỏ hàng và biểu tượng giỏ hàng
 var cartTable = document.getElementById('cart-table');
